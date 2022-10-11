@@ -49,7 +49,7 @@ public class WitchMove : MonoBehaviour
             animator.SetBool("IsShooting", false);
         }
         
-        else if (Input.GetButtonDown("Fire2")) //x
+        if (Input.GetButtonDown("Fire2")) //x
         {
             animator.SetBool("IsAttacking", true);
         }
@@ -58,6 +58,17 @@ public class WitchMove : MonoBehaviour
         {
             animator.SetBool("IsAttacking", false);
         }
+        
+        /*else if (Input.GetButtonDown("Fire2") && Input.GetButtonDown("Jump")) 
+        {
+            animator.SetBool("JumpAttack", true);
+        }
+        else if (Input.GetButtonUp("Fire2") || Input.GetButtonUp("Jump")) 
+        {
+            animator.SetBool("JumpAttack", false);
+        }*/
+
+
 
         if (Input.GetButtonDown("Crouch"))
         {

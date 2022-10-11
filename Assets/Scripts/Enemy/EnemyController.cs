@@ -28,7 +28,8 @@ public class EnemyController : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" && WitchMove.Instance.animator.GetBool("IsAttacking"))
+        if (collision.gameObject.tag == "Girl" )
+            //&& WitchMove.Instance.animator.GetBool("IsAttacking")
         {
             StartCoroutine(TakeDamage());
             //collision.gameObject.SendMessage("ApplyDamage", 10);

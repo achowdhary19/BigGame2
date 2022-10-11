@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CharacterBuilding/Assets/Assets/Scripts/CharacterController2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CharacterBuilding/Assets/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CharacterBuilding/Assets/Assets/Scripts/enemy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -81,6 +82,7 @@
       <workItem from="1665340292400" duration="3731000" />
       <workItem from="1665358452138" duration="1554000" />
       <workItem from="1665431521724" duration="14376000" />
+      <workItem from="1665513440917" duration="3170000" />
     </task>
     <servers />
   </component>
