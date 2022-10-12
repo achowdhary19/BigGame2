@@ -4290,7 +4290,7 @@ GameObject:
   - component: {fileID: 1512857513}
   - component: {fileID: 1512857517}
   - component: {fileID: 1512857518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TEST ENEMY
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4311,6 +4311,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1512857514}
   Girl: {fileID: 1044989506}
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 63
 --- !u!95 &1512857514
 Animator:
   serializedVersion: 4

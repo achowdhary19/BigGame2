@@ -7,7 +7,8 @@ public class EnemyMove : MonoBehaviour
 {
     public static EnemyMove Instance;
     public Animator animator;
-    public Transform Girl; 
+    public Transform Girl;
+    [SerializeField] public LayerMask LayerMask; 
     void Awake()
     {
         Instance = this; 
@@ -21,9 +22,9 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Girl.position-transform.position, 5);
-        //out hit ia what i hit and how far away it is 
-        //       Debug.Log(hit.collider?.name); 
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Girl.position-transform.position, 5, LayerMask);
+        //out hit is what i hit and how far away it is 
+       
         if (hit.collider != null && hit.collider.tag == "Girl")
         {
             animator.SetBool("CanWeSeePlayer", true);

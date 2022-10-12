@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour
         {
             StartCoroutine(TakeDamage());
             //collision.gameObject.SendMessage("ApplyDamage", 10);
-            EnemyHealth -= 10; 
+            //EnemyHealth -= 10; 
             Debug.Log(EnemyHealth);
         }
     }
