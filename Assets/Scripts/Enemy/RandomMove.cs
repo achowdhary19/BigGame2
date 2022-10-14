@@ -14,11 +14,7 @@ public class RandomMove : StateMachineBehaviour
     public float multiplier = 1f;
     public float direction = 1; 
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-    private float MaxWaitTime = 2f;
-
-    [SerializeField] private float RandomPositionXRange = 3.5f;
-    [SerializeField] private float RandomPositionYRange = .5f;
-
+  
 
         
 
@@ -39,25 +35,6 @@ public class RandomMove : StateMachineBehaviour
         EnemyMove.Instance.transform.position += new Vector3(1f, 0) * Time.deltaTime * multiplier * direction;
         
     }
-
-
-    /*public IEnumerator Bird()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(Random.value * MaxWaitTime);
-            Vector3 localTarget;
-            localTarget.x = (Random.value * 2 - 1) * RandomPositionXRange;
-            localTarget.y = (Random.value * 2 - 1) * RandomPositionYRange;
-            Vector3 targetPosition = EnemyMove.Instance.transform.position + localTarget;
-            
-            while (EnemyMove.Instance.transform.position != targetPosition)
-            {
-                yield return null;
-                EnemyMove.Instance.transform.position = Vector3.MoveTowards(EnemyMove.Instance.transform.position, targetPosition, multiplier * Time.deltaTime);
-            }
-        }
-    }*/
 
     private void Flip()
     {

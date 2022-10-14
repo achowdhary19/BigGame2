@@ -11,11 +11,12 @@ public class attackPlayer : StateMachineBehaviour
     //}
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-   
+    
+    
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        EnemyMove.Instance.transform.position= Vector3.RotateTowards(EnemyMove.Instance.transform.position, WitchMove.Instance.transform.position, 90, 3);
-        EnemyMove.Instance.transform.localScale = Vector3.one*3;
+        EnemyMove.Instance.transform.position= Vector3.RotateTowards(EnemyMove.Instance.transform.position, EnemyController.Instance.attackPos.transform.position, 90, 3);
+        //EnemyMove.Instance.transform.localScale = Vector3.one*3;
         EnemyMove.Instance.GetComponent<SpriteRenderer>().sortingOrder = 6; 
     }
 

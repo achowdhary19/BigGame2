@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 847
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Animator
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -251,7 +251,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 19}
   m_Selected: 3
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,9 +332,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 10630000
-    m_LastClickedID: 25360
-    m_ExpandedIDs: 00000000ee6200000663000000ca9a3b
+    m_SelectedIDs: 0a630000
+    m_LastClickedID: 25354
+    m_ExpandedIDs: 00000000ee6200000863000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -490,9 +490,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 06600000
-      m_LastClickedID: 24582
-      m_ExpandedIDs: 28fbffffde5f00000c6000001c6000007a600000
+      m_SelectedIDs: 66620000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 28fbffff0c6000001c600000266000006860000034610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -993,7 +993,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24582
+  m_LastSelectedObjectID: 24784
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1027,14 +1027,14 @@ MonoBehaviour:
     - {fileID: -4670841338293309928, guid: 2cb86d1d1b36040909bad49da3fd0768, type: 2}
     - {fileID: 6710525371742399698, guid: 6b40de0276f654e4cacc6859d53bbaab, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.5490566
+    - e00: 0.47788623
       e01: 0
       e02: 0
-      e03: 99.39151
+      e03: 207.57593
       e10: 0
-      e11: 0.5490566
+      e11: 0.47788623
       e12: 0
-      e13: 58.924538
+      e13: 77.729645
       e20: 0
       e21: 0
       e22: 1
@@ -1043,14 +1043,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.5490566
+    - e00: 0.76578945
       e01: 0
       e02: 0
-      e03: 99.39151
+      e03: -36.499786
       e10: 0
-      e11: 0.5490566
+      e11: 0.76578945
       e12: 0
-      e13: 131.77359
+      e13: 183.78947
       e20: 0
       e21: 0
       e22: 1

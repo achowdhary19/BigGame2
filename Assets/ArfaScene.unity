@@ -4314,6 +4314,9 @@ MonoBehaviour:
   LayerMask:
     serializedVersion: 2
     m_Bits: 63
+  RandomPositionXRange: 2.9
+  RandomPositionYRange: 2.21
+  speed: 2
 --- !u!95 &1512857514
 Animator:
   serializedVersion: 4
@@ -4413,6 +4416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4012fd1c731047dca666ceb8a6e960e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPos: {fileID: 1894177840}
   EnemyHealth: 50
 --- !u!61 &1512857518
 BoxCollider2D:
