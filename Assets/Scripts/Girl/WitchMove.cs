@@ -5,6 +5,7 @@ using UnityEngine;
 public class WitchMove : MonoBehaviour
 {
 
+    public PlayerAttack Attack; //referencing attack function from class playerattack 
     public static WitchMove Instance;
     public CharacterControl controller;
     public Animator animator; 
@@ -39,14 +40,15 @@ public class WitchMove : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1")) //z
         {
-
             animator.SetBool("IsShooting", true);
+            Attack.Attack(); //scripts are nouns
         }
         
         else if (Input.GetButtonUp("Fire1"))//z
         {
 
             animator.SetBool("IsShooting", false);
+            
         }
         
         if (Input.GetButtonDown("Fire2")) //x
@@ -58,17 +60,6 @@ public class WitchMove : MonoBehaviour
         {
             animator.SetBool("IsAttacking", false);
         }
-        
-        /*else if (Input.GetButtonDown("Fire2") && Input.GetButtonDown("Jump")) 
-        {
-            animator.SetBool("JumpAttack", true);
-        }
-        else if (Input.GetButtonUp("Fire2") || Input.GetButtonUp("Jump")) 
-        {
-            animator.SetBool("JumpAttack", false);
-        }*/
-
-
 
         if (Input.GetButtonDown("Crouch"))
         {
@@ -97,7 +88,7 @@ public class WitchMove : MonoBehaviour
     void FixedUpdate ()
     {
         // Move our character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        controller.Move(horizontalMove, crouch, jump);
         jump = false;
     }
 }

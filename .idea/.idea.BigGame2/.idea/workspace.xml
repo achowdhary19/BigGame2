@@ -8,7 +8,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Girl/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pickups/GrowPowerup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pickups/PowerupEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pickups/SpeedBuff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CharacterBuilding/Assets/Assets/Scripts/CharacterController2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CharacterBuilding/Assets/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CharacterBuilding/Assets/Assets/Scripts/enemy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -20,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/../UnderwaterSpaceShooter/Assets/Scripts/Missle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../UnderwaterSpaceShooter/Assets/Scripts/Ship.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../UnderwaterSpaceShooter/Assets/Scripts/animController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnderwaterSpaceShooter/Assets/gameover.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,6 +89,8 @@
       <workItem from="1665513440917" duration="3170000" />
       <workItem from="1665529042085" duration="1085000" />
       <workItem from="1665682605426" duration="2381000" />
+      <workItem from="1665777161349" duration="12913000" />
+      <workItem from="1665883071229" duration="5145000" />
     </task>
     <servers />
   </component>

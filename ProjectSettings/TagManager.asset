@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Girl
   - Enemy
+  - environment
   layers:
   - Default
   - TransparentFX
